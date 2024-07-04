@@ -3,13 +3,13 @@
 
 {
     "name": "account_reconciliation_widget",
-    "version": "15.0.1.2.16",
+    "version": "16.0.1.0.0",
     "category": "Accounting",
     "license": "AGPL-3",
     "summary": "Account reconciliation widget",
     "author": "Odoo, Ozono Multimedia, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/account-reconcile",
-    "depends": ["account"],
+    "depends": ["account", "account_statement_base"],
     "development_status": "Production/Stable",
     "data": [
         "security/ir.model.access.csv",
